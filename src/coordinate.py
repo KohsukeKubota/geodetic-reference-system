@@ -231,14 +231,3 @@ class blh:
     @property
     def pos(self):
         return np.array([self.B, self.L, self.H])
-
-
-def main():
-    print("---self test---")
-    hoge = ecef(-19163561.617619168, 5514390.2974610282, 17332227.130933248).to_blh()
-    print((hoge.B, hoge.L, hoge.H))
-    print(blh(24.3453, 124.1587, 20.0).to_ecef())
-
-
-if __name__ == '__main__':
-    main()
