@@ -4,7 +4,6 @@ import coordinate as cd
 print('=== Example 1 ===')
 print('Station: lat = 30N, lon = 130E, height = 800km')
 print('Receiver: lat = 35N, lon = 135E, height = 0km')
-print('Convert BLH --> ECEF --> ENU --> find IPP at 300km')
 
 # height in km
 Sat_blh = cd.blh(30.0, 130.0, 800000.0)
